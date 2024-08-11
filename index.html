@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexTech - Elevate Your Digital Presence</title>
+ 
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</head>
+<body>
+    <header class="header glass-nav">
+        <nav class="navbar">
+            <div class="logo">NexTech</div>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- <button id="darkModeToggle"><i class="fas fa-moon"></i></button> -->
+        </nav>
+    </header>
+    <main class="container">
+        <h1>Build a strong brand, with a bespoke website / UI UX that converts.</h1>
+        
+        <div class="content-wrapper">
+            <div class="left-container">
+                <div class="carousel">
+                    <img src="images/image1.jpg" alt="Design Sample 1" class="active">
+                    <img src="images/headerImage1.jpeg" alt="Design Sample 2">
+                    <img src="images/headerimage2.jpeg" alt="Design Sample 2">
+                    <img src="images/headerimage3.jpeg" alt="Design Sample 2">
+                </div>
+            </div>
+            <div class="right-container">
+                <form id="proposalForm">
+                    <h2>Get Customized Proposal</h2>
+                    <textarea placeholder="Let us know in brief about your website's requirements"></textarea>
+                    <input type="text" placeholder="Your Name">
+                    <input type="tel" placeholder="Contact Number with Country Code">
+                    <input type="email" placeholder="Contact Email">
+                    <button type="submit">Get Proposal</button>
+                </form>
+            </div>
+        </div>
+       
+    </main>
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-content">
+                <h2 class="section-title">Our Vision</h2>
+                <p class="about-description">At NexTech, we're not just building websites; we're crafting digital experiences that redefine industry standards. Our team of visionaries and tech enthusiasts is dedicated to pushing the boundaries of what's possible in the digital realm.</p>
+                <div class="process-container">
+                    <div class="process-item" data-step="01">
+                        <div class="process-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Ideation</h3>
+                        <p>Transforming concepts into groundbreaking digital solutions.</p>
+                    </div>
+                    <div class="process-item" data-step="02">
+                        <div class="process-icon">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <h3>Design</h3>
+                        <p>Crafting intuitive and visually stunning user experiences.</p>
+                    </div>
+                    <div class="process-item" data-step="03">
+                        <div class="process-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Development</h3>
+                        <p>Building robust and scalable digital platforms.</p>
+                    </div>
+                    <div class="process-item" data-step="04">
+                        <div class="process-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Launch</h3>
+                        <p>Deploying and optimizing for maximum impact.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="team-showcase">
+                <div class="team-image">
+                    <img src="images/team.jpeg" alt="Our Team">
+                </div>
+                <div class="team-overlay">
+                    <h3>Meet Our Visionaries</h3>
+                    <p>A collective of innovators, designers, and developers shaping the future of digital experiences.</p>
+                    <a href="#team" class="team-link">Explore Our Team <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services-section">
+        <div class="services-container">
+            <h2 class="section-title">Our Expertise</h2>
+            <p class="section-description">Elevating digital experiences through innovative solutions</p>
+            <div class="services-grid">
+                <div class="service-card" data-service="web">
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p class="service-description">Crafting bespoke websites that captivate and convert.</p>
+                    </div>
+                    <div class="service-hover">
+                        <p>Responsive designs. Modern frameworks. Optimized performance.</p>
+                    </div>
+                </div>
+                <div class="service-card" data-service="mobile">
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile App Development</h3>
+                        <p class="service-description">Intuitive apps for iOS and Android platforms.</p>
+                    </div>
+                    <div class="service-hover">
+                        <p>Native and cross-platform solutions. Seamless UX. High performance.</p>
+                    </div>
+                </div>
+                <div class="service-card" data-service="uiux">
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p class="service-description">Creating engaging and user-centric designs.</p>
+                    </div>
+                    <div class="service-hover">
+                        <p>User research. Wireframing. Prototyping. Usability testing.</p>
+                    </div>
+                </div>
+                <div class="service-card" data-service="seo">
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>SEO Optimization</h3>
+                        <p class="service-description">Boosting visibility and organic traffic.</p>
+                    </div>
+                    <div class="service-hover">
+                        <p>Keyword research. On-page SEO. Link building. Analytics.</p>
+                    </div>
+                </div>
+                <div class="service-card" data-service="chatbot">
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>AI Chatbot Integration</h3>
+                        <p class="service-description">Enhance customer engagement with intelligent chatbots.</p>
+                    </div>
+                    <div class="service-hover">
+                        <p>24/7 support. Personalized interactions. Seamless integration.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="all-services.html" class="view-all-button">
+                Explore All Services
+                <span class="button-icon"><i class="fas fa-arrow-right"></i></span>
+            </a>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials-section">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <div class="testimonial-carousel">
+            <div class="testimonial-item">
+                <p>"NexTech transformed our online presence. Their expertise and creativity are unmatched!"</p>
+                <div class="testimonial-author">
+                    <img src="client1.jpg" alt="Client 1">
+                    <div>
+                        <h4>John Doe</h4>
+                        <p>CEO, TechCorp</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <p>"The team at NexTech delivered beyond our expectations. Highly recommended!"</p>
+                <div class="testimonial-author">
+                    <img src="client2.jpg" alt="Client 2">
+                    <div>
+                        <h4>Jane Smith</h4>
+                        <p>Marketing Director, InnovateCo</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more testimonial items as needed -->
+        </div>
+    </section>
+
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+              <div class="image-column">
+                <img src="images/team.jpeg" alt="Our Team" class="team-image">
+                <div class="company-info">
+                  <img src="path-to-your-logo.png" alt="Company Logo" class="logo">
+                  <h3>Get in Touch</h3>
+                  <p>We're here to turn your digital dreams into reality.</p>
+                </div>
+              </div>
+              <div class="form-column">
+                <form id="proposalForm" class="proposal-form">
+                  <h2>Request Your Bespoke Proposal</h2>
+                  <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Your Name</label>
+                    <i class="fas fa-user"></i>
+                  </div>
+                  <div class="input-group">
+                    <input type="tel" id="phone" required>
+                    <label for="phone">Contact Number</label>
+                    <i class="fas fa-phone"></i>
+                  </div>
+                  <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email Address</label>
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="input-group">
+                    <textarea id="requirements" rows="4" required></textarea>
+                    <label for="requirements">Project Requirements</label>
+                    <i class="fas fa-project-diagram"></i>
+                  </div>
+                  <button type="submit">Submit Request </button>
+                </form>
+              </div>
+            </div>
+          </section>
+ 
+          <footer class="site-footer">
+            <div class="footer-content">
+              <div class="footer-logo">
+                <img src="path-to-your-logo.png" alt="Company Logo">
+              </div>
+              <nav class="footer-nav">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Services</a>
+                <a href="#" class="nav-link">Portfolio</a>
+                <a href="#" class="nav-link">Contact</a>
+              </nav>
+              <div class="footer-social">
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+            </div>
+          </footer>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- <script src="script1.js"></script> -->
+    </body>
