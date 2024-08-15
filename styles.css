@@ -1201,6 +1201,7 @@ button:hover i {
 
 .nav-links:hover{
     transform: translateY(-3px);
-    opacity: 1;
+
+    
 }
 
